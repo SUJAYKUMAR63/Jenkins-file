@@ -10,7 +10,7 @@ pipeline
         
         stage("build"){
             steps{
-                echo "hello from build"
+                mvn --version
             }
             
         }
