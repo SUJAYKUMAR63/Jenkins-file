@@ -15,7 +15,7 @@ pipeline
         
         stage("build"){
             steps{
-                mvn --version
+                mvn -version
             }
             
         }
